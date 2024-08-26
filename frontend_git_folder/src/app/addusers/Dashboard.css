@@ -1,0 +1,41 @@
+/* Dashboard.css */
+
+.site-layout-background {
+    background: #fff;
+  }
+  
+  .logo {
+    font-size: large;
+    height: 32px;
+    color: #fff;
+    margin: 16px;
+    padding-left: 20px;
+    padding-top: 6px;
+  }
+  
+  .ant-layout-sider {
+    background: #001529;
+  }
+  
+  .ant-layout-header {
+    padding: 0;
+  }
+  
+  .ant-layout-footer {
+    padding: 0 24px;
+  }
+  
+  .ant-menu-item, .ant-menu-submenu-title {
+    font-size: 16px;
+  }
+  
+  .ant-menu-item:hover, .ant-menu-submenu-title:hover {
+    background: rgba(255, 255, 255, 0.2);
+  }
+  
+  @media (max-width: 768px) {
+    .ant-layout-sider {
+      width: 100%;
+    }
+  }
+  
